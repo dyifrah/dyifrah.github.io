@@ -1,0 +1,156 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'OpenSans', sans-serif;
+}
+
+p, ul {
+	font-size: 16px;
+	line-height:22px;
+	font-weight:300;
+	letter-spacing:.5px;
+	padding-left:15px;
+	padding-right:15px;
+	color:#333;
+}
+
+h1 {
+	font-family: 'OpenSans', sans-serif;
+	padding-left:35px;
+	padding-right:35px;
+	padding-bottom: 185px;
+	font-size:30px;
+	line-height:36px;
+	text-align:center;
+	color:#ffffff;	
+}
+
+h2 {
+	font-family: 'OpenSans', sans-serif;
+	padding-right: 20px;
+}
+	
+ .BGspan{
+ 	background-image: url('../img/BG.jpg'); 
+ 	width: auto;
+ 	height: auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.maxwidth{
+	max-width:950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo	{
+	text-align: center;
+}
+.logo img {
+	width: 202px;
+	height: auto;
+	padding-top: 150px;
+	padding-bottom: 5px;
+}
+
+.logo h1 {
+	color: #FFFFFF;
+}
+
+.welcome {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.welcome strong {
+	font-size: 30px;
+}
+
+.footer {
+	background-color: #F2F2F2;
+}
+
+.footerStyle {
+	font-size: 10px;
+	color: #B6B6B6;
+	text-align: center;
+	padding-top: 9px;
+}
+
+.Istanbul {
+	background-image: url('../img/Istanbul.jpg');
+	height: 100%;
+	width: auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Inset {
+	height: 500px;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 35%;
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+
+.insetText {
+	font-size: 14px;
+	padding: 10px;
+}
+
+.Athens {
+	background-image: url('../img/Athens.jpg'); 
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Tel_Aviv {
+	background-image: url('../img/Tel_Aviv.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*****MEDIA QUERIES*****/
+@media (min-width: 320px) and (max-width: 480px) {
+
+	
+	 
+	
+
+	
+}
+
+@media (min-width: 580px) and (max-width: 768px) {
+	
+
+	
+
+	
+}
+
+@media (min-width: 825px) and (max-width: 1000px) {
+	
+	
+	
+	
+}
+
+@media (min-width: 1000px) and (max-width: 1260px) {
+	
+	
+	
+	
+}
+
+@media (min-width: 1920px) {
+	
+}

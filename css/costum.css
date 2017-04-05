@@ -93,18 +93,21 @@ h2 {
 }
 
 .Inset {
-	height: 500px;
-  background-color: rgba(255, 255, 255, 0.75);
+	height: 517px;
+  background-color: rgba(255, 255, 255, 0.82);
   width: 30%;
   float: right;
   margin-right: 50px;
   margin-top: 100px;
   margin-bottom: 50px;
   border: 1px solid black;
+  overflow: auto;
 }
 
 .insetText {
 	font-size: 14px;
+	color: black;
+	font-weight: 500;
 	padding: 10px;
 }
 

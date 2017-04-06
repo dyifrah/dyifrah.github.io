@@ -83,48 +83,38 @@ h2 {
 	padding-top: 9px;
 }
 
-.Istanbul {
-	background-image: url('../img/Istanbul.jpg');
-	height: 100vh;
-	width: auto;
-	background-position: center center;
+.country {
+  padding: 5rem 3rem;
+  background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+.Istanbul {
+	background-image: url('../img/Istanbul.jpg');
+	height: 100vh;
+}
+
 .Inset {
-	height: 517px;
-  background-color: rgba(255, 255, 255, 0.82);
-  width: 30%;
-  float: right;
-  margin-right: 50px;
-  margin-top: 100px;
-  margin-bottom: 50px;
   border: 1px solid black;
-  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
 }
 
 .insetText {
 	font-size: 14px;
 	color: black;
 	font-weight: 500;
-	padding: 10px;
 }
 
 .Athens {
 	background-image: url('../img/Athens.jpg'); 
 	height: 100vh;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .Tel_Aviv {
 	background-image: url('../img/Tel_Aviv.jpg');
 	height: 100vh;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .pageAnchor {
@@ -145,6 +135,38 @@ h2 {
 	padding: 200px;
 }
 
+.slick-arrow {
+  position: absolute;
+	top: 50%;
+	z-index: 1;
+}
+
+.slick-prev {
+  	left: 0;
+}
+
+.slick-next {
+	right: 0;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
 /*****MEDIA QUERIES*****/
 @media (min-width: 320px) and (max-width: 480px) {
 .aboutContent p {
@@ -153,22 +175,9 @@ h2 {
 }
 
 .inset {
-	min-width: 20vh;
-	max-height: 200px;
-}
-	
-.insetText {
-	font-size: .9rem;
-}
-
-.Istanbul {
-	background-image: url('../img/Istanbul.jpg');
-	height: 100vh;
-	width: auto;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+    max-width: 25%;
+    float: right;
+  }
 
 
 }

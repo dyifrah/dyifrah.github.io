@@ -16,6 +16,7 @@ p, ul {
 
 h1 {
 	font-family: 'OpenSans', sans-serif;
+	font-weight: bold;
 	padding-left:35px;
 	padding-right:35px;
 	padding-bottom: 185px;
@@ -85,9 +86,12 @@ h2 {
 
 .country {
   padding: 5rem 3rem;
-  background-position: center center;
+  background-position: center center fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .Istanbul {
@@ -132,7 +136,7 @@ h2 {
 	text-align: center;
 	font-size: 32px;
 	line-height: 150%;
-	padding: 200px;
+	padding: 250px;
 }
 
 .slick-arrow {
@@ -168,34 +172,68 @@ h2 {
 }
 
 /*****MEDIA QUERIES*****/
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 579px) {
 .aboutContent p {
 	padding: 10vh;
 	text-align: center;
 }
 
-.inset {
-    max-width: 25%;
-    float: right;
-  }
+.country {
+	justify-content: flex-end;
+}
 
+.inset {
+    max-width: 35%;
+  }
 
 }
 @media (min-width: 580px) and (max-width: 768px) {
+.aboutContent p {
+	padding: 10vh;
+	text-align: center;
+}
 
+.country {
+	justify-content: flex-end;
+}
+
+.inset {
+    max-width: 35%;
+  }
 
 	
 }
 
 @media (min-width: 825px) and (max-width: 1000px) {
-	
-	
+.aboutContent p {
+	padding: 10vh;
+	text-align: center;
+}
+
+.country {
+	justify-content: flex-end;
+}
+
+.inset {
+    max-width: 35%;
+  }
 	
 	
 }
 
 @media (min-width: 1000px) and (max-width: 1260px) {
-	
+.aboutContent p {
+	padding: 10vh;
+	text-align: center;
+}
+
+.country {
+	justify-content: flex-end;
+}
+
+.inset {
+    max-width: 35%;
+  }
 	
 	
 	
